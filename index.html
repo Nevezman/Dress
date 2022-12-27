@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    </head>
+    <body>
+        <header>
+            <div class="conteiner">
+                <div class="head">
+                   <img class="head__logo" src="./img/svg/logo-5.svg" alt="logo"> 
+                   <ul class="head__info">
+                    <li class="head__content">
+                        <img src="./img/svg/interface_clipboard_file_paper_document_office_writing_icon_132983.png" alt="logo" class="head__making_img">
+                        <dl class="head__content_text">
+                            <dt>Раотаем по записи</dt>
+                            <dd>С 11<span>00</span>до 19<span>20</span></dd>
+                        </dl>
+                    </li>
+                    <li class="head__content">
+                        <img src="./img/svg/icons8-place-marker-50.png" alt="logo" class="head__making_img">
+                        <dl class="head__content_text">
+                            <dt>Находимся</dt>
+                            <dd>Г.Владимир </dd>
+                        </dl>
+                    </li>
+                   </ul>
+                    <div class="head__boton">
+                        <a href="#" class="head__btn">Записатся</a>
+                    </div>
+                  
+                </div>
+               
+            </div>
+            <div class="menu">
+                    <div class="conteiner"> 
+                        <div class="menu" id="app-menu">
+                    
+                        <ul class="menu__navigations">
+                        <li class="menu__navigations_items"><a href="#">Главная</a></li>
+                        <li class="menu__navigations_items-katalog"><a href="#">Каталог</a>
+                        <ul class="menu__navigations_items-sub">
+                            <li v-for="item in itemKatalogs" ><a :href="item.link">{{item.itemKatalog}}</a></li>
+                        </ul>
+                        </li>
+                        <li class="menu__navigations_items-axe"><a href="#">Аксессуары</a>
+                            <ul class="menu__navigations_items-sub">
+                                <li v-for="item in itemAxes" ><a :href="item.link">{{item.itemAxe}}</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__navigations_items-info"><a href="#">Информация</a>
+                            <ul class="menu__navigations_items-sub">
+                                <li v-for="item in itemInfos" ><a :href="item.link">{{item.itemInfo}}</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__navigations_items"><a href="#">Акции</a></li>
+                        </ul>
+                        </div>
+                </div>
+            </header>
+            <main>
+            <section class="promo">
+              <img src="./img/jpg/smal_promo.jpg" alt="dress" class="promo__img">
+            </section>
+            <section class="promoKatalog">
+            <div class="conteiner">
+                
+                    <h2 class="promoKatalog_title"> Тип каталог, а может и не каталог</h2>
+                    <div class="promoKatalog__wrapper">
+                    <img src="./img/jpg/untitleddesign_1_original-3.jpg" alt="" class="promoKATALOG__IMG">
+                    <img src="./img/jpg/untitleddesign_1_original-4.jpg" alt="" class="promoKATALOG__IMG" >
+                    <img src="./img/jpg/untitleddesign_1_original-5.jpg" alt="" class="promoKATALOG__IMG" >
+                    <img src="./img/jpg/untitleddesign_1_original.jpg" alt="" class="promoKATALOG__IMG" >
+                
+                    </div>
+            </div>
+            </section>
+            </main>
+            <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="./js/app.js"></script>
+        
+    </body>
+</html>
