@@ -23,25 +23,25 @@ createApp({
         itemKatalog:'Платье', 
         link:"https://www.youtube.com/watch?v=8nW-IPrzM1g&list=RDMM&index=30&ab_channel=Disturbed"
       },],
-      
+
       itemInfos: [{
-        itemInfo:'инфо',
+        itemInfo:'Аренда',
         link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
       },
       {
-        itemInfo:'инфо',
+        itemInfo:'Примерка',
         link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
       },
       {
-        itemInfo:'инфо',
+        itemInfo:'Бронирование',
         link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
       },
       {
-         itemInfo:'инфо',
+         itemInfo:'Ответственность за сохранность платья',
          link:"https://www.youtube.com/"
         },
         {
-          itemInfo:'инфо',
+          itemInfo:'Отзывы',
           link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
         },],
 

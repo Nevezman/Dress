@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import "menuhead";
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  } 
+  a {
+    color:inherit;
+    text-decoration: none;
+  }
+  .conteiner {
+    max-width: 1300px;
+    padding: 0px 10px;
+    margin: 0 auto;
+  }
+ 
+  .promo {
+   margin-top: 170px;
+    .promo__img {
+        width: 100%;
+    }
+  }
+  .promoKatalog {
+    text-align: center;
+    .promoKatalog__wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+.promoKatalog_title {
+    font-size: 60px;
+    font-weight: 400px;
+    padding: 50px 0;
+
+}
+    .promoKATALOG__IMG {
+        width: 300px;
+    } 
+   
+}

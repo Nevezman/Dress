@@ -7,10 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/reset.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="conteiner">
                 <div class="head">
                    <img class="head__logo" src="./img/svg/logo-5.svg" alt="logo"> 
@@ -18,20 +17,25 @@
                     <li class="head__content">
                         <img src="./img/svg/interface_clipboard_file_paper_document_office_writing_icon_132983.png" alt="logo" class="head__making_img">
                         <dl class="head__content_text">
-                            <dt>Раотаем по записи</dt>
-                            <dd>С 11<span>00</span>до 19<span>20</span></dd>
+                            <dt>Работаем c 11 <span>00</span>до 19 <span>30</span></dt>
+                            <dd>по предварительной записи</dd>
                         </dl>
                     </li>
                     <li class="head__content">
                         <img src="./img/svg/icons8-place-marker-50.png" alt="logo" class="head__making_img">
+                        <a href="https://goo.gl/maps/Sa25tCtHdaZ3m7rT8" class="head__content_location">
                         <dl class="head__content_text">
-                            <dt>Находимся</dt>
+                            <dt>Находимся:</dt>
                             <dd>Г.Владимир </dd>
-                        </dl>
+                            <dd>остановка ВлГУ</dd>
+                        </dl></a>
                     </li>
                    </ul>
                     <div class="head__boton">
-                        <a href="#" class="head__btn">Записатся</a>
+                        <a href="#" class="head__btn">
+                            <img src="./img/svg/vklogo.svg" alt="vk">
+                            <p>Записаться</p>
+                        </a>
                     </div>
                   
                 </div>
@@ -58,6 +62,7 @@
                                 <li v-for="item in itemInfos" ><a :href="item.link">{{item.itemInfo}}</a></li>
                             </ul>
                         </li>
+                        <li class="menu__navigations_items"><a href="#">Для беременных</a></li>
                         <li class="menu__navigations_items"><a href="#">Акции</a></li>
                         </ul>
                         </div>

@@ -1,0 +1,136 @@
+@mixin sub {
+    background-color: #fff;
+          list-style: none;
+          opacity: 0;
+          position: fixed;
+          z-index: 100;
+           li {
+              padding: 10px 40px 10px 0;
+              color: #000;
+              transition: 0.5s all;
+              &:hover {
+                background-color: #8B79B1;
+              }
+               a{
+                  color: #000;
+                  
+               }
+           }
+        }
+        .header {
+            position:fixed ;
+            top: 0; 
+            width: 100%; 
+            background-color: #fff;
+            z-index: 99;
+            overflow: hidden;
+            .head {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding-top: 10px;
+              .head__info {
+                  display: flex;
+                  justify-content: space-between;
+                  list-style-type: none;
+                  gap: 50px;
+                  .head__content {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      gap: 20px;
+                      .head__content_location{
+                       .head__content_text{
+                        transition: color 1s;
+                        &:hover {
+                          color: #8d15dd;
+                        }
+                       }
+                      }
+                      .head__content_text {
+                          font-size: 20px;
+                          font-weight: 400;
+                          color: gray;
+                           dt {
+                            padding-bottom: 5px;
+                           }
+                           dd {
+                            padding-bottom: 5px;
+                           }
+                          span {
+                              vertical-align: super;
+                          }
+                          
+                      }
+                  }
+              }
+              .head__boton {
+                text-align: center;
+                .head__btn{
+                  font-size: 20px;
+                  color: rgb(3, 1, 1);
+                  transition: 1s color;
+                  &:hover {
+                    color: #8d15dd;
+                  }
+                  
+          
+              }
+              }
+             
+            }
+            .menu {
+              margin-top: 10px;
+              background-color: #8B79B1;
+            .menu__navigations{
+              display: flex;
+              position: relative;
+              justify-content: center;
+              list-style-type: none;
+              gap: 40px;
+              padding: 10px;
+          
+          .menu__navigations_items-katalog{
+            
+                &:hover {
+                  .menu__navigations_items-sub {
+                    opacity: 1;
+                  }
+                }
+          .menu__navigations_items-sub {
+            transition: 0.5s all;
+                  @include sub;
+                 }
+              }
+              
+          .menu__navigations_items-info{
+                &:hover {
+                  .menu__navigations_items-sub {
+                    opacity: 1;
+                  }
+                }
+          .menu__navigations_items-sub {
+            transition: 0.5s all;
+                  @include sub;
+                 }
+              }
+          
+              .menu__navigations_items-axe{
+                &:hover {
+                  .menu__navigations_items-sub {
+                    opacity: 1;
+                  }
+                }
+          .menu__navigations_items-sub {
+            transition: 0.5s all;
+                  @include sub;
+                 }
+                }
+             }
+            a {
+                  color: rgb(255, 254, 254);
+                  font-size: 30px;
+                  font-weight: 400;
+          }
+            }
+          }
