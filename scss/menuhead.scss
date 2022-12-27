@@ -39,14 +39,6 @@
                       justify-content: space-between;
                       align-items: center;
                       gap: 20px;
-                      .head__content_location{
-                       .head__content_text{
-                        transition: color 1s;
-                        &:hover {
-                          color: #8d15dd;
-                        }
-                       }
-                      }
                       .head__content_text {
                           font-size: 20px;
                           font-weight: 400;

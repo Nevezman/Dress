@@ -41,13 +41,6 @@
           align-items: center;
   gap: 20px;
 }
-.header .head .head__info .head__content .head__content_location .head__content_text {
-  -webkit-transition: color 1s;
-  transition: color 1s;
-}
-.header .head .head__info .head__content .head__content_location .head__content_text:hover {
-  color: #8d15dd;
-}
 .header .head .head__info .head__content .head__content_text {
   font-size: 20px;
   font-weight: 400;
