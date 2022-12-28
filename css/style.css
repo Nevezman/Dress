@@ -41,6 +41,9 @@
           align-items: center;
   gap: 20px;
 }
+.header .head .head__info .head__content .head__icons {
+  color: #8d15dd;
+}
 .header .head .head__info .head__content .head__content_text {
   font-size: 20px;
   font-weight: 400;
@@ -161,6 +164,24 @@
   font-weight: 400;
 }
 
+.rent {
+  text-align: center;
+}
+.rent .rent__title {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+.rent .rent__info {
+  text-align: start;
+}
+.rent .rent__info .rent__info_text {
+  font-size: 20px;
+  color: gray;
+  padding-bottom: 10px;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -179,15 +200,23 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+main {
+  margin-top: 170px;
+}
+
 .conteiner {
   max-width: 1300px;
   padding: 0px 10px;
   margin: 0 auto;
 }
 
-.promo {
-  margin-top: 170px;
-}
 .promo .promo__img {
   width: 100%;
 }
@@ -209,4 +238,14 @@ a {
 }
 .promoKatalog .promoKATALOG__IMG {
   width: 300px;
+}
+
+.footer {
+  background-color: rgb(60, 5, 110);
+  margin-top: 40px;
+  padding: 30px 0;
+}
+.footer .foot__text {
+  color: #fff;
+  margin-bottom: 10px;
 }

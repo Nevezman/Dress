@@ -26,7 +26,7 @@ createApp({
 
       itemInfos: [{
         itemInfo:'Аренда',
-        link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
+        link:"Info.html#rent"
       },
       {
         itemInfo:'Примерка',
