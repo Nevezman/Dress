@@ -17,6 +17,9 @@
                }
            }
         }
+        .head__icons {
+          color: #8B79B1;
+        }
         .header {
             position:fixed ;
             top: 0; 
@@ -28,7 +31,11 @@
               display: flex;
               justify-content: space-between;
               align-items: center;
-              padding-top: 10px;
+              padding: 5px 50px;
+              .test {
+                display: flex;
+                justify-content: space-between;
+              }
               .head__info {
                   display: flex;
                   justify-content: space-between;
@@ -39,11 +46,9 @@
                       justify-content: space-between;
                       align-items: center;
                       gap: 20px;
-                      .head__icons {
-                        color: #8d15dd;
-                      }
+                      
                       .head__content_text {
-                          font-size: 20px;
+                          font-size: 15px;
                           font-weight: 400;
                           color: gray;
                            dt {
@@ -61,6 +66,7 @@
               }
               .head__boton {
                 text-align: center;
+               
                 .head__btn{
                   font-size: 20px;
                   color: rgb(3, 1, 1);
@@ -75,7 +81,7 @@
              
             }
             .menu {
-              margin-top: 10px;
+              
               background-color: #8B79B1;
             .menu__navigations{
               display: flex;
@@ -83,7 +89,9 @@
               justify-content: center;
               list-style-type: none;
               gap: 40px;
-              padding: 10px;
+              li{
+                padding: 10px;
+              }
           
           .menu__navigations_items-katalog{
             
@@ -128,4 +136,7 @@
                   font-weight: 400;
           }
             }
+          }
+          .menu__active {
+            background-color: #8d15dd;
           }

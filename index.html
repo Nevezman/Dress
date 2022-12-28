@@ -16,9 +16,9 @@
     </head>
     <body>
         <header class="header">
-            <div class="conteiner">
+            
                 <div class="head">
-                   <img class="head__logo" src="./img/svg/logo-5.svg" alt="logo"> 
+                    <a href="index.html"><img class="head__logo" src="./img/svg/logo-5.svg" alt="logo"> </a>
                    <ul class="head__info">
                     <li class="head__content">
                         <span class="head__icons">
@@ -41,20 +41,19 @@
                    </ul>
                     <div class="head__boton">
                         <a href="#" class="head__btn">
-                            <img src="./img/svg/vklogo.svg" alt="vk">
+                        <span class="head__icons"> <i class="fa-brands fa-vk fa-3x"></i></span>
                             <p>Записаться</p>
                         </a>
                     </div>
                   
-                </div>
-               
+                
+            
             </div>
             <div class="menu">
                     <div class="conteiner"> 
                         <div class="menu" id="app-menu">
                     
                         <ul class="menu__navigations">
-                        <li class="menu__navigations_items"><a href="index.html">Главная</a></li>
                         <li class="menu__navigations_items-katalog"><a href="#">Каталог</a>
                         <ul class="menu__navigations_items-sub">
                             <li v-for="item in itemKatalogs" ><a :href="item.link">{{item.itemKatalog}}</a></li>
