@@ -89,7 +89,9 @@
               justify-content: center;
               list-style-type: none;
               gap: 40px;
-          
+              li {
+                padding: 5px 5px 0px 5px;
+              }
           .menu__navigations_items-katalog{
             
                 &:hover {
@@ -132,6 +134,8 @@
                   color: rgb(255, 254, 254);
                   font-size: 25px;
                   font-weight: bold;
+                  
+
           }
             }
           }

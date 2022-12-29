@@ -93,6 +93,9 @@
   list-style-type: none;
   gap: 40px;
 }
+.header .menu .menu__navigations li {
+  padding: 5px 5px 0px 5px;
+}
 .header .menu .menu__navigations .menu__navigations_items-katalog:hover .menu__navigations_items-sub {
   display: block;
 }
