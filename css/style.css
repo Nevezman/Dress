@@ -93,20 +93,16 @@
   list-style-type: none;
   gap: 40px;
 }
-.header .menu .menu__navigations li {
-  padding: 10px;
-}
 .header .menu .menu__navigations .menu__navigations_items-katalog:hover .menu__navigations_items-sub {
-  opacity: 1;
+  display: block;
 }
 .header .menu .menu__navigations .menu__navigations_items-katalog .menu__navigations_items-sub {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
   background-color: #fff;
   list-style: none;
-  opacity: 0;
   position: fixed;
-  z-index: 100;
+  display: none;
 }
 .header .menu .menu__navigations .menu__navigations_items-katalog .menu__navigations_items-sub li {
   padding: 10px 40px 10px 0;
@@ -121,16 +117,15 @@
   color: #000;
 }
 .header .menu .menu__navigations .menu__navigations_items-info:hover .menu__navigations_items-sub {
-  opacity: 1;
+  display: block;
 }
 .header .menu .menu__navigations .menu__navigations_items-info .menu__navigations_items-sub {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
   background-color: #fff;
   list-style: none;
-  opacity: 0;
   position: fixed;
-  z-index: 100;
+  display: none;
 }
 .header .menu .menu__navigations .menu__navigations_items-info .menu__navigations_items-sub li {
   padding: 10px 40px 10px 0;
@@ -145,16 +140,15 @@
   color: #000;
 }
 .header .menu .menu__navigations .menu__navigations_items-axe:hover .menu__navigations_items-sub {
-  opacity: 1;
+  display: block;
 }
 .header .menu .menu__navigations .menu__navigations_items-axe .menu__navigations_items-sub {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
   background-color: #fff;
   list-style: none;
-  opacity: 0;
   position: fixed;
-  z-index: 100;
+  display: none;
 }
 .header .menu .menu__navigations .menu__navigations_items-axe .menu__navigations_items-sub li {
   padding: 10px 40px 10px 0;
@@ -222,7 +216,7 @@ body {
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .conteiner {
@@ -262,4 +256,9 @@ main {
 .footer .foot__text {
   color: #fff;
   margin-bottom: 10px;
+}
+
+.benefits .benefits__img {
+  margin-top: 20px;
+  width: 100%;
 }

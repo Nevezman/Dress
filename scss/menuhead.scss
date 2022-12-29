@@ -1,9 +1,8 @@
 @mixin sub {
     background-color: #fff;
           list-style: none;
-          opacity: 0;
           position: fixed;
-          z-index: 100;
+          display: none;
            li {
               padding: 10px 40px 10px 0;
               color: #000;
@@ -89,15 +88,13 @@
               justify-content: center;
               list-style-type: none;
               gap: 40px;
-              li{
-                padding: 10px;
-              }
           
           .menu__navigations_items-katalog{
             
                 &:hover {
                   .menu__navigations_items-sub {
-                    opacity: 1;
+                    display: block;
+                  
                   }
                 }
           .menu__navigations_items-sub {
@@ -109,7 +106,7 @@
           .menu__navigations_items-info{
                 &:hover {
                   .menu__navigations_items-sub {
-                    opacity: 1;
+                   display: block;
                   }
                 }
           .menu__navigations_items-sub {
@@ -121,7 +118,7 @@
               .menu__navigations_items-axe{
                 &:hover {
                   .menu__navigations_items-sub {
-                    opacity: 1;
+                    display: block;
                   }
                 }
           .menu__navigations_items-sub {
