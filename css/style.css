@@ -115,6 +115,7 @@
 }
 .header .menu .menu__navigations .menu__navigations_items-katalog .menu__navigations_items-sub li a {
   color: #000;
+  font-weight: 400;
 }
 .header .menu .menu__navigations .menu__navigations_items-info:hover .menu__navigations_items-sub {
   display: block;
@@ -138,6 +139,7 @@
 }
 .header .menu .menu__navigations .menu__navigations_items-info .menu__navigations_items-sub li a {
   color: #000;
+  font-weight: 400;
 }
 .header .menu .menu__navigations .menu__navigations_items-axe:hover .menu__navigations_items-sub {
   display: block;
@@ -161,11 +163,12 @@
 }
 .header .menu .menu__navigations .menu__navigations_items-axe .menu__navigations_items-sub li a {
   color: #000;
+  font-weight: 400;
 }
 .header .menu a {
   color: rgb(255, 254, 254);
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .menu__active {
@@ -216,7 +219,7 @@ body {
 }
 
 main {
-  margin-top: 130px;
+  margin-top: 123px;
 }
 
 .conteiner {
