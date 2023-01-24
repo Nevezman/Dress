@@ -4,9 +4,9 @@
           position: fixed;
           display: none;
            li {
-              padding: 10px 40px 10px 0;
+              padding: 10px 40px 10px 10px;
               color: #000;
-              transition: 0.5s all;
+              transition: 1.5s all;
               &:hover {
                 background-color: #8B79B1;
               }
