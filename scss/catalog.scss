@@ -4,14 +4,14 @@
         display: grid;
         justify-items: center;
         justify-content: center;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 25% 25% 25% 25%;
         gap: 40px 0px;    
         .catalog__size_img {
-            width: 300px;
+            
             transition: all 1s;
             &:hover {
-                transform: scale(120%);
-                box-shadow: 10px 5px 5px grey;
+                transform: scale(110%);
+                box-shadow: 5px 5px 5px #8B79B1;
             }
         }
       }
