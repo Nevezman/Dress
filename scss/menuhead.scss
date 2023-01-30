@@ -90,7 +90,7 @@
               list-style-type: none;
               gap: 40px;
               li {
-                padding: 5px 5px 0px 5px;
+                padding: 0px 10px 0px 10px;
               }
           .menu__navigations_items-katalog{
             
@@ -130,9 +130,9 @@
                  }
                 }
              }
-            a {
+            .menu__navigations_items-katalog_a{
                   color: rgb(255, 254, 254);
-                  font-size: 20px;
+                  font-size: 25px;
                   font-weight: bold;
                   
 
@@ -140,6 +140,11 @@
             }
           }
           .menu__active {
-            border: #000 solid 1px;
-          background-color: #8d15dd;
+          background-color:#fff;
+          .menu__active_a{
+          color: #8B79B1; 
+          font-size: 25px;
+          font-weight: bold;
+          
+          }  
           }

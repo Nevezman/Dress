@@ -94,7 +94,7 @@
   gap: 40px;
 }
 .header .menu .menu__navigations li {
-  padding: 5px 5px 0px 5px;
+  padding: 0px 10px 0px 10px;
 }
 .header .menu .menu__navigations .menu__navigations_items-katalog:hover .menu__navigations_items-sub {
   display: block;
@@ -168,15 +168,19 @@
   color: #000;
   font-weight: 400;
 }
-.header .menu a {
+.header .menu .menu__navigations_items-katalog_a {
   color: rgb(255, 254, 254);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .menu__active {
-  border: #000 solid 1px;
-  background-color: #8d15dd;
+  background-color: #fff;
+}
+.menu__active .menu__active_a {
+  color: #8B79B1;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .rent {

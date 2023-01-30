@@ -56,23 +56,23 @@
                     <div class="menu" id="app-menu">
                 
                     <ul class="menu__navigations">
-                    <li class="menu__navigations_items-katalog menu__active"><a  href="Catalog.html">КАТАЛОГ</a>
+                    <li class="menu__navigations_items-katalog menu__active"><a class='menu__active_a' href="Catalog.html">КАТАЛОГ</a>
                     <ul class="menu__navigations_items-sub">
                         <li v-for="item in itemKatalogs" ><a :href="item.link">{{item.itemKatalog}}</a></li>
                     </ul>
                     </li>
-                    <li class="menu__navigations_items-axe"><a href="#">АКСЕССУАРЫ</a>
+                    <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="#">АКСЕССУАРЫ</a>
                         <ul class="menu__navigations_items-sub">
                             <li v-for="item in itemAxes" ><a :href="item.link">{{item.itemAxe}}</a></li>
                         </ul>
                     </li>
-                    <li class="menu__navigations_items-info"><a href="Info.html">ИНФОРМАЦИЯ</a>
+                    <li class="menu__navigations_items-info"><a class='menu__navigations_items-katalog_a' href="Info.html">ИНФОРМАЦИЯ</a>
                         <ul class="menu__navigations_items-sub">
                             <li v-for="item in itemInfos" ><a :href="item.link">{{item.itemInfo}}</a></li>
                         </ul>
                     </li>
-                    <li class="menu__navigations_items"><a href="#">ДЛЯ БЕРЕМЕННЫХ</a></li>
-                    <li class="menu__navigations_items"><a href="#">АКЦИИ</a></li>
+                    <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="#">ДЛЯ БЕРЕМЕННЫХ</a></li>
+                    <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="#">АКЦИИ</a></li>
                     </ul>
                     </div>
             </div>
@@ -82,20 +82,21 @@
          <section class="catalog__size">
             <div class="conteiner">
                 <div class="catalog__size_wrapper">
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/XXs-XS.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/s.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/M.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/L.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/XL.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/XXl-3XL.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/body.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/Penuars.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/history.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/not_dress.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/acx.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/hand_and_head.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/cloak.webp" alt="xxl" class="catalog__size_img"></a>
-            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/children.webp" alt="xxl" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_29" class="catalog__size_link" target="_blank"><img src="img/webp/XXs-XS.webp" alt="xxs-xs" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_28" class="catalog__size_link" target="_blank"><img src="img/webp/s.webp" alt="s" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_30" class="catalog__size_link" target="_blank"><img src="img/webp/M.webp" alt="m" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_31" class="catalog__size_link" target="_blank"><img src="img/webp/L.webp" alt="l" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_32" class="catalog__size_link" target="_blank"><img src="img/webp/XL.webp" alt="xl" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_33" class="catalog__size_link" target="_blank"><img src="img/webp/XXl-3XL.webp" alt="-xxl-3xl" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_34" class="catalog__size_link" target="_blank"><img src="img/webp/body.webp" alt="body" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_1" class="catalog__size_link" target="_blank"><img src="img/webp/Penuars.webp" alt="penuars" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_4" class="catalog__size_link" target="_blank"><img src="img/webp/history.webp" alt="history dress" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_5" class="catalog__size_link" target="_blank"><img src="img/webp/not_dress.webp" alt="not a dress" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_35" class="catalog__size_link" target="_blank"><img src="img/webp/acx.webp" alt="acssesuar" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_36" class="catalog__size_link" target="_blank"><img src="img/webp/hand_and_head.webp" alt="hanf and head" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_37" class="catalog__size_link" target="_blank"><img src="img/webp/cloak.webp" alt="cloak" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_7" class="catalog__size_link" target="_blank"><img src="img/webp/children.webp" alt="children" class="catalog__size_img"></a>
+            <a href="https://vk.com/market-146634571?section=album_21" class="catalog__size_link" target="_blank"><img src="img/webp/pregnant.webp" alt="pregnant" class="catalog__size_img"></a>
             </div>
             </div>
          </section>
