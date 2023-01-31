@@ -32,10 +32,7 @@
               justify-content: space-between;
               align-items: center;
               padding: 5px 50px;
-              .test {
-                display: flex;
-                justify-content: space-between;
-              }
+              
               .head__info {
                   display: flex;
                   justify-content: space-between;
@@ -59,6 +56,7 @@
                            }
                           span {
                               vertical-align: super;
+                              font-size: 10px;
                           }
                           
                       }

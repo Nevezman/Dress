@@ -67,11 +67,27 @@ h2 {
 .footer {
  background-color: #8B79B1;
   margin-top: 40px;
-  padding: 30px 0;
-  .foot__text {
-    color: #fff;
-    margin-bottom: 10px;
+  .footer__title {
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: start;
   }
+ .footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  .footer__info_text{
+    list-style-type: none;
+    color:#fff;
+    padding-bottom: 5px;
+    transition: all 1s;
+    .footer__info_text-link {
+      text-decoration: underline;
+      &:hover {
+        color:red;
+      }
+    }
+  }
+ }
 }
 .benefits {
 

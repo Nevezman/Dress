@@ -23,14 +23,6 @@
           align-items: center;
   padding: 5px 50px;
 }
-.header .head .test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
 .header .head .head__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +58,7 @@
 }
 .header .head .head__info .head__content .head__content_text span {
   vertical-align: super;
+  font-size: 10px;
 }
 .header .head .head__boton {
   text-align: center;
@@ -290,11 +283,32 @@ h2 {
 .footer {
   background-color: #8B79B1;
   margin-top: 40px;
-  padding: 30px 0;
 }
-.footer .foot__text {
+.footer .footer__title {
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: start;
+}
+.footer .footer_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .footer_wrapper .footer__info_text {
+  list-style-type: none;
   color: #fff;
-  margin-bottom: 10px;
+  padding-bottom: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.footer .footer_wrapper .footer__info_text .footer__info_text-link {
+  text-decoration: underline;
+}
+.footer .footer_wrapper .footer__info_text .footer__info_text-link:hover {
+  color: red;
 }
 
 .benefits .benefits__img {
