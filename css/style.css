@@ -323,8 +323,8 @@ h2 {
 .polosa {
   text-align: center;
   background: rgb(139, 121, 177);
-  background: -webkit-gradient(linear, left top, right top, from(rgb(139, 121, 177)), color-stop(51%, rgb(111, 97, 142)), to(rgb(139, 121, 177)));
-  background: linear-gradient(90deg, rgb(139, 121, 177) 0%, rgb(111, 97, 142) 51%, rgb(139, 121, 177) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(139, 121, 177)), color-stop(21%, rgb(111, 97, 142)), color-stop(51%, rgb(111, 97, 142)), color-stop(81%, rgb(111, 97, 142)), to(rgb(139, 121, 177)));
+  background: linear-gradient(90deg, rgb(139, 121, 177) 0%, rgb(111, 97, 142) 21%, rgb(111, 97, 142) 51%, rgb(111, 97, 142) 81%, rgb(139, 121, 177) 100%);
 }
 .polosa .polosa__p {
   padding: 5px 0;
