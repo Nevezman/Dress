@@ -73,7 +73,8 @@
   color: #8d15dd;
 }
 .header .menu {
-  background-color: #8B79B1;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(139, 121, 177)), color-stop(51%, rgb(205, 19, 224)), to(rgb(139, 121, 177)));
+  background: linear-gradient(90deg, rgb(139, 121, 177) 0%, rgb(205, 19, 224) 51%, rgb(139, 121, 177) 100%);
 }
 .header .menu .menu__navigations {
   display: -webkit-box;
