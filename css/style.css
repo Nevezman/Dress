@@ -307,20 +307,7 @@ h2 {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
-.footer .footer_wrapper .footer__info_text .footer__info_text-link {
-  text-decoration: underline;
-}
 .footer .footer_wrapper .footer__info_text .footer__info_text-link:hover {
-  font-weight: bold;
-}
-.footer .footer_wrapper .footer__info_text2 {
-  list-style-type: none;
-  color: #fff;
-  padding-bottom: 5px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-.footer .footer_wrapper .footer__info_text2 .footer__info_text-link:hover {
   font-weight: bold;
 }
 
@@ -331,6 +318,6 @@ h2 {
 
 .polosa {
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, rgb(139, 121, 177)), color-stop(52%, rgb(205, 19, 224)), color-stop(71%, rgb(139, 121, 177)));
-  background: linear-gradient(90deg, rgb(139, 121, 177) 30%, rgb(205, 19, 224) 52%, rgb(139, 121, 177) 71%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(6%, rgba(139, 121, 177, 0.381390056)), color-stop(51%, rgb(205, 19, 224)), color-stop(94%, rgb(139, 121, 177)));
+  background: linear-gradient(90deg, rgba(139, 121, 177, 0.381390056) 6%, rgb(205, 19, 224) 51%, rgb(139, 121, 177) 94%);
 }
