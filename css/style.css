@@ -73,8 +73,9 @@
   color: #8d15dd;
 }
 .header .menu {
-  background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), color-stop(51%, rgb(139, 121, 177)), to(rgb(255, 255, 255)));
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(139, 121, 177) 51%, rgb(255, 255, 255) 100%);
+  background: rgb(255, 255, 255);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), color-stop(21%, rgb(139, 121, 177)), color-stop(51%, rgb(139, 121, 177)), color-stop(81%, rgb(139, 121, 177)), to(rgb(255, 255, 255)));
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(139, 121, 177) 21%, rgb(139, 121, 177) 51%, rgb(139, 121, 177) 81%, rgb(255, 255, 255) 100%);
 }
 .header .menu .menu__navigations {
   display: -webkit-box;
@@ -288,7 +289,7 @@ h2 {
 }
 .footer .footer__title {
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 25px;
   text-align: start;
   color: #fff;
   text-decoration: underline;
@@ -300,8 +301,10 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 5px 5px;
 }
 .footer .footer_wrapper .footer__info_text {
+  width: 400px;
   list-style-type: none;
   color: #fff;
   padding-bottom: 5px;
@@ -319,8 +322,9 @@ h2 {
 
 .polosa {
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, color-stop(6%, rgba(139, 121, 177, 0.381390056)), color-stop(51%, rgb(205, 19, 224)), color-stop(94%, rgb(139, 121, 177)));
-  background: linear-gradient(90deg, rgba(139, 121, 177, 0.381390056) 6%, rgb(205, 19, 224) 51%, rgb(139, 121, 177) 94%);
+  background: rgb(139, 121, 177);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(139, 121, 177)), color-stop(51%, rgb(111, 97, 142)), to(rgb(139, 121, 177)));
+  background: linear-gradient(90deg, rgb(139, 121, 177) 0%, rgb(111, 97, 142) 51%, rgb(139, 121, 177) 100%);
 }
 .polosa .polosa__p {
   padding: 5px 0;

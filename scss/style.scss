@@ -68,7 +68,7 @@ h2 {
   margin-top: 40px;
   .footer__title {
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 25px;
     text-align: start;
     color:#fff;
     text-decoration: underline;
@@ -76,7 +76,9 @@ h2 {
  .footer_wrapper {
   display: flex;
   justify-content: space-between;
+ padding: 5px 5px;
   .footer__info_text{
+    width: 400px;
     list-style-type: none;
     color:#fff;
     padding-bottom: 5px;
@@ -98,7 +100,8 @@ h2 {
 }
 .polosa {
   text-align: center;
-  background: linear-gradient(90deg, rgba(139,121,177,0.38139005602240894) 6%, rgba(205,19,224,1) 51%, rgba(139,121,177,1) 94%);
+  background: rgb(139,121,177);
+  background: linear-gradient(90deg, rgba(139,121,177,1) 0%, rgba(111,97,142,1) 51%, rgba(139,121,177,1) 100%);
   .polosa__p {
     padding: 5px 0;
     font-size: 18px;
