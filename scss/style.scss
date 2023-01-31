@@ -53,9 +53,8 @@ h2 {
   .promoKatalog {
     text-align: center;
     .promoKatalog__wrapper{
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-      gap: 20px;
+     display: flex;
+     justify-content: space-between;
     }
     .promoKATALOG__IMG {
         width: 300px;
