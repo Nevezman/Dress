@@ -321,3 +321,9 @@ h2 {
   background: -webkit-gradient(linear, left top, right top, color-stop(6%, rgba(139, 121, 177, 0.381390056)), color-stop(51%, rgb(205, 19, 224)), color-stop(94%, rgb(139, 121, 177)));
   background: linear-gradient(90deg, rgba(139, 121, 177, 0.381390056) 6%, rgb(205, 19, 224) 51%, rgb(139, 121, 177) 94%);
 }
+.polosa .polosa__p {
+  padding: 5px 0;
+  font-size: 18px;
+  font-family: "EB Garamond", serif;
+  color: #fff;
+}
