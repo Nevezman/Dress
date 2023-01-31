@@ -288,8 +288,8 @@ h2 {
   margin-top: 40px;
 }
 .footer .footer__title {
-  padding: 20px 0;
-  font-size: 25px;
+  padding: 10px 0;
+  font-size: 22px;
   text-align: start;
   color: #fff;
   text-decoration: underline;
@@ -328,7 +328,6 @@ h2 {
 }
 .polosa .polosa__p {
   padding: 5px 0;
-  font-size: 18px;
-  font-family: "EB Garamond", serif;
+  font-size: 15px;
   color: #fff;
 }
