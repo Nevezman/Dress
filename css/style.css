@@ -58,7 +58,7 @@
 }
 .header .head .head__info .head__content .head__content_text span {
   vertical-align: super;
-  font-size: 10px;
+  font-size: 12px;
 }
 .header .head .head__boton {
   text-align: center;
@@ -289,6 +289,8 @@ h2 {
   padding: 20px 0;
   font-size: 30px;
   text-align: start;
+  color: #fff;
+  text-decoration: underline;
 }
 .footer .footer_wrapper {
   display: -webkit-box;
@@ -309,10 +311,26 @@ h2 {
   text-decoration: underline;
 }
 .footer .footer_wrapper .footer__info_text .footer__info_text-link:hover {
-  color: red;
+  font-weight: bold;
+}
+.footer .footer_wrapper .footer__info_text2 {
+  list-style-type: none;
+  color: #fff;
+  padding-bottom: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.footer .footer_wrapper .footer__info_text2 .footer__info_text-link:hover {
+  font-weight: bold;
 }
 
 .benefits .benefits__img {
   margin-top: 20px;
   width: 100%;
+}
+
+.polosa {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, rgb(139, 121, 177)), color-stop(52%, rgb(205, 19, 224)), color-stop(71%, rgb(139, 121, 177)));
+  background: linear-gradient(90deg, rgb(139, 121, 177) 30%, rgb(205, 19, 224) 52%, rgb(139, 121, 177) 71%);
 }
