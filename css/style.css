@@ -10,6 +10,7 @@
   background-color: #fff;
   z-index: 99;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 .header .head {
   display: -webkit-box;
