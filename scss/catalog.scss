@@ -17,3 +17,17 @@
       }
     
 }
+.catalog__promo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../img/jpg/girlingreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 400px;
+     .title__catalog {
+        color: #fff;
+     }
+}
