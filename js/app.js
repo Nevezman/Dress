@@ -5,9 +5,9 @@ createApp({
     return {
       itemKatalogs: [{
         itemKatalog:'Для невест', 
-        linkIndex:"pages/dopPagese/forPregnant.html",
-        linkOtherPage:"dopPagese/forPregnant.html",
-        linkDopPage:"forPregnant.html",
+        linkIndex:"pages/dopPagese/forWedding.html",
+        linkOtherPage:"dopPagese/forWedding.html",
+        linkDopPage:"forWedding.html",
       },
       {
         itemKatalog:'Платье',

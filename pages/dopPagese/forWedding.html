@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Info</title>
-        <link rel="icon" href="../img/svg/logo-5.svg">
+        <link rel="icon" href="../../img/svg/logo-5.svg">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../../css/style.css">
         <script src="https://kit.fontawesome.com/10616a0a99.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
         <header class="header">
             
                 <div class="head">
-                    <a href="../index.html"><img class="head__logo" src="../img/svg/logo-5.svg" alt="logo"> </a>
+                    <a href="../../index.html"><img class="head__logo" src="../../img/svg/logo-5.svg" alt="logo"> </a>
                    <ul class="head__info">
                     <li class="head__content">
                         <span class="head__icons">
@@ -53,18 +53,18 @@
                         <div class="menu_nav" id="app-menu">
                     
                             <ul class="menu__navigations">
-                                <li class="menu__navigations_items-katalog "><a class='menu__navigations_items-katalog_a' href="Catalog.html">КАТАЛОГ</a>
+                                <li class="menu__navigations_items-katalog menu__active"><a class='menu__active_a' href="../Catalog.html">КАТАЛОГ</a>
                                 <ul class="menu__navigations_items-sub">
-                                    <li v-for="item in itemKatalogs" ><a :href="item.linkOtherPage">{{item.itemKatalog}}</a></li>
+                                    <li v-for="item in itemKatalogs" ><a :href="item.linkDopPage">{{item.itemKatalog}}</a></li>
                                 </ul>
                                 </li>
-                                <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="accses.html">АКСЕССУАРЫ</a>
+                                <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="../accses.html">АКСЕССУАРЫ</a>
                                     <ul class="menu__navigations_items-sub">
                                         <li v-for="item in itemAxes" ><a :href="item.link">{{item.itemAxe}}</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="forPregnant.html">ДЛЯ БЕРЕМЕННЫХ</a></li>
-                                <li class="menu__navigations_items-info menu__active"><a class='menu__active_a' href="Info.html">ИНФОРМАЦИЯ</a>
+                                <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="../forPregnant.html">ДЛЯ БЕРЕМЕННЫХ</a></li>
+                                <li class="menu__navigations_items-info "><a class='menu__navigations_items-katalog_a' href="../Info.html">ИНФОРМАЦИЯ</a>
                                     <ul class="menu__navigations_items-sub">
                                         <li v-for="item in itemInfos" ><a :href="item.link">{{item.itemInfo}}</a></li>
                                     </ul>
@@ -76,40 +76,14 @@
             </header>
           <main>
             
-            <section class="rent">
-                    <div class="conteiner">
-                       <h2 class="rent__title" id="rent">Аренда</h2>
-                       <ul class="rent__info">
-                        <li class="rent__info_text">Срок аренды платья на фотосессию 2-5 часа ( платье выдается на время съемки + дорога)</li>
-                        <li class="rent__info_text">Срок аренды на мероприятия 1-3 дня ( сегодня забрали, завтра надели, послезавтра вернули) Возврат и выдача происходит в обговоренное время</li>
-                        <li class="rent__info_text">Забрать и вернуть платье нужно в течении рабочего времени
-                            Если ваша съемка проходит раньше или позже этого времени, то вы можете забрать платье накануне вечером или вернуть с утра</li>
-                        <li class="rent__info_text">Стоимость проката и залог за каждое конкретное платье или аксессуар указана в товаре.</li>
-                        <li class="rent__info_text">Бронирование осуществляется по предоплате (минимум 500р)</li>
-                        <li class="rent__info_text">Когда забираете платье вносите оплату + залог</li>
-                        <li class="rent__info_text">По истечении срока аренды верните платье и получите обратно залог</li>
-                        <li class="rent__info_text">Прокат на мероприятие/фотосессию в другой город: обсуждается с прокатом.</li>
-                       
-                       </ul>
-                    </div>
+            <section class="catalog__promo">
+                <h1 class="title__catalog">Для невест</h1>
             </section>
-            <section class="rent">
-                <div class="conteiner">
-                   <h2 class="rent__title" id="rent">Аренда</h2>
-                   <ul class="rent__info">
-                    <li class="rent__info_text">Срок аренды платья на фотосессию 2-5 часа ( платье выдается на время съемки + дорога)</li>
-                    <li class="rent__info_text">Срок аренды на мероприятия 1-3 дня ( сегодня забрали, завтра надели, послезавтра вернули) Возврат и выдача происходит в обговоренное время</li>
-                    <li class="rent__info_text">Забрать и вернуть платье нужно в течении рабочего времени
-                        Если ваша съемка проходит раньше или позже этого времени, то вы можете забрать платье накануне вечером или вернуть с утра</li>
-                    <li class="rent__info_text">Стоимость проката и залог за каждое конкретное платье или аксессуар указана в товаре.</li>
-                    <li class="rent__info_text">Бронирование осуществляется по предоплате (минимум 500р)</li>
-                    <li class="rent__info_text">Когда забираете платье вносите оплату + залог</li>
-                    <li class="rent__info_text">По истечении срока аренды верните платье и получите обратно залог</li>
-                    <li class="rent__info_text">Прокат на мероприятие/фотосессию в другой город: обсуждается с прокатом.</li>
-                   
-                   </ul>
-                </div>
-        </section>
+           <section class="wedding__catalog">
+            <div class="conteiner">
+                <a href="https://vk.com/market-146634571?section=album_39" class="wedding__size_link" target="_blank"><img src="../../img/webp/wedding.webp" alt="свадьба платья" class="wedding__size_img"></a>
+            </div>
+           </section>
           </main>
           <footer class="footer">
             <div class="conteiner">
@@ -147,6 +121,6 @@
             </div>
         </footer>
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-            <script src="../js/app.js"></script>
+            <script src="../../js/app.js"></script>
     </body>
 </html>

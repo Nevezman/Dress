@@ -237,6 +237,26 @@
   color: #fff;
 }
 
+.wedding__catalog {
+  text-align: center;
+}
+
+.pregnant__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.accses__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
