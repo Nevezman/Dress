@@ -65,17 +65,15 @@
               }
               .head__boton {
                 text-align: center;
-               
+                transition: 0.5s all;
+                &:hover {
+                  transform: scale(110%);
+                  
+                }
                 .head__btn{
                   font-size: 20px;
                   color: rgb(3, 1, 1);
-                  transition: 1s color;
-                  &:hover {
-                    
-                    font-weight: bold; 
-                  }
-                  
-          
+                  transition: 1s all;
               }
               }
              

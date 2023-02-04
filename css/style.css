@@ -63,15 +63,18 @@
 }
 .header .head .head__boton {
   text-align: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.header .head .head__boton:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
 }
 .header .head .head__boton .head__btn {
   font-size: 20px;
   color: rgb(3, 1, 1);
-  -webkit-transition: 1s color;
-  transition: 1s color;
-}
-.header .head .head__boton .head__btn:hover {
-  font-weight: bold;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 .header .menu {
   background: rgb(255, 255, 255);
