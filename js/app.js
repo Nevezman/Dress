@@ -4,8 +4,10 @@ createApp({
   data() {
     return {
       itemKatalogs: [{
-        itemKatalog:'Платье', 
-        link:"https://www.youtube.com/watch?v=8nW-IPrzM1g&list=RDMM&index=30&ab_channel=Disturbed"
+        itemKatalog:'Для невест', 
+        linkIndex:"pages/dopPagese/forPregnant.html",
+        linkOtherPage:"dopPagese/forPregnant.html",
+        linkDopPage:"forPregnant.html",
       },
       {
         itemKatalog:'Платье',

@@ -56,9 +56,9 @@
                         <div class="menu_nav" id="app-menu">
                     
                             <ul class="menu__navigations">
-                                <li class="menu__navigations_items-katalog "><a class='menu__navigations_items-katalog_a' href="/pages/Catalog.html">КАТАЛОГ</a>
+                                <li class="menu__navigations_items-katalog "><a class='menu__navigations_items-katalog_a' href="pages/Catalog.html">КАТАЛОГ</a>
                                 <ul class="menu__navigations_items-sub">
-                                    <li v-for="item in itemKatalogs" ><a :href="item.link">{{item.itemKatalog}}</a></li>
+                                    <li v-for="item in itemKatalogs" ><a :href="item.linkIndex">{{item.itemKatalog}}</a></li>
                                 </ul>
                                 </li>
                                 <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="#">АКСЕССУАРЫ</a>
@@ -67,7 +67,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="#">ДЛЯ БЕРЕМЕННЫХ</a></li>
-                                <li class="menu__navigations_items-info"><a class='menu__navigations_items-katalog_a' href="/pages/Info.html">ИНФОРМАЦИЯ</a>
+                                <li class="menu__navigations_items-info"><a class='menu__navigations_items-katalog_a' href="pages/Info.html">ИНФОРМАЦИЯ</a>
                                     <ul class="menu__navigations_items-sub">
                                         <li v-for="item in itemInfos" ><a :href="item.link">{{item.itemInfo}}</a></li>
                                     </ul>
