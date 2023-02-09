@@ -46,27 +46,6 @@ createApp({
           itemInfo:'Отзывы',
           link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
         },],
-
-        itemAxes: [{
-          itemAxe:'инфо',
-          link:"https://www.youtube.com/"
-        },
-        {
-          itemAxe:'инфо',
-          link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
-        },
-        {
-          itemAxe:'инфо',
-          link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
-        },
-        {
-           itemAxe:'инфо',
-           link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
-          },
-          {
-            itemAxe:'инфо',
-            link:"https://www.youtube.com/watch?v=MZjVBRT3w3g&list=RDMZjVBRT3w3g&start_radio=1&ab_channel=ANACONDAZ"
-          },]
     }
   }
 }).mount('#app-menu')

@@ -15,7 +15,8 @@
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    </head>
+         <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+        </head>
     <body>
         <header class="header">
             
@@ -61,11 +62,7 @@
                                     <li v-for="item in itemKatalogs" ><a :href="item.linkIndex">{{item.itemKatalog}}</a></li>
                                 </ul>
                                 </li>
-                                <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="pages/accses.html">АКСЕССУАРЫ</a>
-                                    <ul class="menu__navigations_items-sub">
-                                        <li v-for="item in itemAxes" ><a :href="item.link">{{item.itemAxe}}</a></li>
-                                    </ul>
-                                </li>
+                                <li class="menu__navigations_items-axe"><a class='menu__navigations_items-katalog_a' href="pages/accses.html">АКСЕССУАРЫ</a></li>
                                 <li class="menu__navigations_items"><a class='menu__navigations_items-katalog_a' href="pages/forPregnant.html">ДЛЯ БЕРЕМЕННЫХ</a></li>
                                 <li class="menu__navigations_items-info"><a class='menu__navigations_items-katalog_a' href="pages/Info.html">ИНФОРМАЦИЯ</a>
                                     <ul class="menu__navigations_items-sub">
@@ -80,10 +77,6 @@
             <main>
             <section class="promo">
               <img src="./img/jpg/Untitled Project (3).jpg" alt="dress" class="promo__img">
-              <img src="./img/jpg/Untitled Project (1).jpg" alt="dress" class="promo__img">
-              <img src="./img/jpg/Untitled Project (2).jpg" alt="dress" class="promo__img">
-              <img src="./img/jpg/Копия Untitled Project.jpg" alt="dress" class="promo__img">
-              <img src="./img/jpg/Копия Untitled Project (1).jpg" alt="dress" class="promo__img">
             </section>
             <section class="promoKatalog">
             <div class="conteiner">
@@ -139,6 +132,11 @@
                 </div>
                 <div class="polosa"><p class="polosa__p">Помогаем с 2017 года подбирать самые красивые образы на фотосессии и мероприятия. Аренда прокат платьев во Владимире | Dress me</p></div>
             </footer>
+            <!-- VK Widget -->
+             <div id="vk_community_messages"></div>
+             <script type="text/javascript">
+               VK.Widgets.CommunityMessages("vk_community_messages", 146634571, {expanded: "0",tooltipButtonText: "Есть вопрос?"});
+            </script>
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script src="./js/app.js"></script>
         

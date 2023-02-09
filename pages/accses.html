@@ -12,7 +12,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        </head>
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+    </head>
     <body>
       
         <header class="header">
@@ -59,11 +60,7 @@
                                     <li v-for="item in itemKatalogs" ><a :href="item.linkOtherPage">{{item.itemKatalog}}</a></li>
                                 </ul>
                                 </li>
-                                <li class="menu__navigations_items-axe menu__active"><a class='menu__active_a' href="accses.html">АКСЕССУАРЫ</a>
-                                    <ul class="menu__navigations_items-sub">
-                                        <li v-for="item in itemAxes" ><a :href="item.link">{{item.itemAxe}}</a></li>
-                                    </ul>
-                                </li>
+                                <li class="menu__navigations_items-axe menu__active"><a class='menu__active_a' href="accses.html">АКСЕССУАРЫ</a></li>
                                 <li class="menu__navigations_items "><a class='menu__navigations_items-katalog_a' href="forPregnant.html">ДЛЯ БЕРЕМЕННЫХ</a></li>
                                 <li class="menu__navigations_items-info "><a class='menu__navigations_items-katalog_a' href="Info.html">ИНФОРМАЦИЯ</a>
                                     <ul class="menu__navigations_items-sub">
@@ -125,6 +122,11 @@
              </div>
             </div>
         </footer>
+        <!-- VK Widget -->
+        <div id="vk_community_messages"></div>
+        <script type="text/javascript">
+          VK.Widgets.CommunityMessages("vk_community_messages", 146634571, {expanded: "0",tooltipButtonText: "Есть вопрос?"});
+       </script>
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
             <script src="../js/app.js"></script>
     </body>
