@@ -48,4 +48,8 @@ createApp({
         },],
     }
   }
-}).mount('#app-menu')
+}).mount('#app-menu');
+import { Accordion } from "./acardion.js";
+document.querySelectorAll('details').forEach(el => {
+  new Accordion(el)
+})

@@ -1,11 +1,30 @@
 .rent {
-    text-align: center;
-    .rent__info {
-        text-align: start;
-        .rent__info_text {
-            font-size: 20px;
-            color: gray;
-            padding-bottom: 10px;
-        }
+    margin: 162px 0;
+   .rent__questions {
+    font-size: 20px;
+    font-weight: bold;  
+    p {
+        transition: all 2s;
     }
+    .rent__questions_text{
+        font-size: 15px;
+        font-weight: 400;
+    }
+   }
 }
+summary {
+    display: flex;
+    align-items: center;
+  }
+  
+    summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::before {
+    content: url(../img/svg/question.svg);
+  }
+  details[open] > summary:before {
+    content: url(../img/svg/info.svg);
+  }
+  
+    
