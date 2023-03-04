@@ -5,6 +5,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    height: 100%;
   }
   *,
   *::after,
@@ -16,12 +17,16 @@ html {
     text-decoration: none;
   }
   body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.2;
+    height: 100%;
   }
   main {
+    flex: 1 1 0;
     margin-top: 123px;
   }
   .conteiner {
@@ -106,5 +111,13 @@ h2 {
     padding: 5px 0;
     font-size: 15px;
     color:#fff;
+  }
+}
+.stock__wrapper {
+  display: flex;
+  justify-content: space-between;
+  .stock__text {
+    padding-top: 30px;
+    max-width: 350px ;
   }
 }
