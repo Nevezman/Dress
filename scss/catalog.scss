@@ -7,7 +7,6 @@
         grid-template-columns: 25% 25% 25% 25%;
         gap: 40px 0px;    
         .catalog__size_img {
-            
             transition: all 1s;
             &:hover {
                 transform: scale(110%);

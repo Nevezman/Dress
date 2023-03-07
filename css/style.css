@@ -185,13 +185,14 @@
 .rent .rent__questions {
   font-size: 20px;
   font-weight: bold;
+  margin: 20px 0;
 }
 .rent .rent__questions p {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 .rent .rent__questions .rent__questions_text {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -309,7 +310,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.2;
+  line-height: 1.5;
   height: 100%;
 }
 
@@ -419,7 +420,12 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.stock__wrapper .stock__sale_title {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 0;
+  font-weight: 500;
+}
 .stock__wrapper .stock__text {
-  padding-top: 30px;
   max-width: 350px;
 }
